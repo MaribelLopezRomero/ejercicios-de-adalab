@@ -1,0 +1,25 @@
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.containerform {
+  width: 200px;
+  height: 300px padding-le;
+  background-color: salmon;
+  padding: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type='email']::placeholder {
+  text-align: right;
+}
+.born {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

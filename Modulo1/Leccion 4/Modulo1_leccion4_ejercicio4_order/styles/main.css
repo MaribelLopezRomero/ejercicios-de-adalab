@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.article {
+  border: 2px solid black;
+  width: 49%;
+}
+
+.article-5 {
+  order: -1;
+  width: 100%;
+}

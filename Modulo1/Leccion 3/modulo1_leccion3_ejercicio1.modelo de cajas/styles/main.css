@@ -1,0 +1,19 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  display: inline-block;
+}
+.pikachu {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.box {
+  width: 100px; /*auto -- si quiero ajustar la caja al tamño de la imagen  */
+  height: 100px; /*auto -- si quiero ajustar la caja al tamño de la imagen  */
+  background: yellow;
+  padding: 10px;
+  border: 5px red solid;
+  box-sizing: border-box;
+}

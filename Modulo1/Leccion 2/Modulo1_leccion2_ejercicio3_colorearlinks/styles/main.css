@@ -1,0 +1,16 @@
+body {
+  font-size: 18px;
+  font-family: tahoma;
+  color: rebeccapurple;
+  background-color: mediumpurple;
+  line-height: 1.5;
+}
+.links {
+  color: red;
+}
+.link1 {
+  color: green;
+}
+.link1 a {
+  color: green;
+}

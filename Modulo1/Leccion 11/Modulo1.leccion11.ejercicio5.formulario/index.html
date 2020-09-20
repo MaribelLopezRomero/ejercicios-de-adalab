@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <div class="containerform">
+        <form class="form" action="/signup" method="post">
+            <label for="firstname">nombre</label>
+            <input placeholder="nombre" id="firstname" type="text" name="firstname"> </input>
+            <input placeholder="apellidos" type="text" name="lastname"> </input>
+            <label for="username">nombre</label>
+            <input class="username" placeholder="@gmail.com" id="username" type="email" name="username"> </input>
+            <label for=password>Contraseña</label>
+            <input placeholder="contraseña" id="password" type="password" name="password"> </input>
+            <label for=password>Confirmar contraseña</label>
+            <input placeholder="Confirmar contraseña" id="password" type="password" name="password"> </input>
+
+
+            <label for="Born">Fecha de nacimiento:</label>
+            <div class="born">
+                <select id="dayborn" name="Born">
+                    <option value="">Dia</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+
+                </select>
+                <select id="monthborn" name="Born">
+                    <option value="">mes</option>
+                    <option value="enero">enero</option>
+                    <option value="febrero">febrero</option>
+                    <option value="marzo">marzo</option>
+
+                </select>
+
+                <select id="yearborn" name="Born">
+                    <option value="">año</option>
+                    <option value="1990">1990</option>
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                </select>
+            </div>
+
+            <label for=Movil>Telefono de movil</label>
+            <select id="pais" name="pais">
+                <option value="">pais</option>
+                <option value="españa">españa</option>
+                <option value="marruecos">&#1f1f2;</option>
+                <option value="italia">italia</option>
+            </select>
+            <input id="Movil" type="number" name="Movil"> </input>
+
+        </form>
+    </div>
+</body>
+
+</html>
