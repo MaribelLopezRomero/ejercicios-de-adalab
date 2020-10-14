@@ -1,0 +1,14 @@
+.button1,
+.button2 {
+  background-color: black;
+  padding: 20px;
+  color: red;
+}
+
+.opacity {
+  opacity: 0.4;
+}
+
+.hidden {
+  display: none;
+}
