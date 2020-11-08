@@ -8,8 +8,8 @@ class Header extends React.Component {
         <header className='App-header'>
           <img src={logo} className='App-logo' alt='logo' />
           <div className='App-wrapper'>
-            <h1 className='App-title'>Álex Guerrero</h1>
-            <h2 className='App-subtitle'>Lunes 26 de junio de 2017</h2>
+            <h1 className='App-title'>{this.props.name}</h1>
+    <h2 className='App-subtitle'>{this.props.date}</h2>
           </div>
         </header>
     );

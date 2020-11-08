@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.scss';
-import Mediacard from './Mediacard'
+import MediaList from './MediaList'
 
 
 class App extends React.Component {
   render() {
     return (
       <>
-        <Mediacard />
+        <MediaList />
       </>
     );
   }

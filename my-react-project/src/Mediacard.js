@@ -6,10 +6,28 @@ import './App.scss';
 class Mediacard extends React.Component {
   render() {
     return (
-      <>
-        <Header />
-        <Main />
-      </>
+    //   <>
+    //     <Header name= "Alex Guerrero" date = "Lunes 26 de junio de 2017" />
+    //     <Main text = " Lorem fistrum no te digo trigo por no llamarte Rodrigor a gramenawer
+    //       ese que llega de la pradera. De la pradera a wan a gramenawer diodeno
+    //       ese que llega. Ese hombree fistro al ataquerl pupita jarl al ataquerl.
+    //       Pecador a gramenawer torpedo tiene musho peligro apetecan ese hombree
+    //       va usté muy cargadoo. No puedor sexuarl mamaar me cago en tus muelas a
+    //       peich la caidita. Te voy a borrar el cerito pupita mamaar va usté muy
+    //       cargadoo papaar papaar."/>
+     
+    //   </>
+    <>
+    <Header name= {this.props.name} date = {this.props.date} />
+    <Main text = " Lorem fistrum no te digo trigo por no llamarte Rodrigor a gramenawer
+      ese que llega de la pradera. De la pradera a wan a gramenawer diodeno
+      ese que llega. Ese hombree fistro al ataquerl pupita jarl al ataquerl.
+      Pecador a gramenawer torpedo tiene musho peligro apetecan ese hombree
+      va usté muy cargadoo. No puedor sexuarl mamaar me cago en tus muelas a
+      peich la caidita. Te voy a borrar el cerito pupita mamaar va usté muy
+      cargadoo papaar papaar."/>
+ 
+  </>
     );
   }
 }
