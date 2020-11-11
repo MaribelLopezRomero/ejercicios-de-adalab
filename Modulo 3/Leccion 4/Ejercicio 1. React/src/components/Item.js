@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 class Item extends React.Component {
   render() {
@@ -17,12 +17,12 @@ class Item extends React.Component {
   }
 }
 
-Item.defaultProps ={
-    description: "No hay descripcion del producto"
-}
-Item.prototype =  {
-    name: PropTypes.string.isRequired,
-    quantity: PropTypes.number.isRequired,
-}
+// Item.defaultProps ={
+//     description: "No hay descripcion del producto"
+// }
+// Item.prototype =  {
+//     name: PropTypes.string.isRequired,
+//     quantity: PropTypes.number.isRequired,
+// }
 export default Item;
 

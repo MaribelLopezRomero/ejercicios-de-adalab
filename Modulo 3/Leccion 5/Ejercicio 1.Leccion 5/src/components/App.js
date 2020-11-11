@@ -1,12 +1,14 @@
 import React from 'react';
 import '../stylesheets/App.scss';
-import ItemsList from './ItemsList';
+import OnionHater from './OnioHater';
+import Destiny from './Destiny'
 
 class App extends React.Component {
   render() {
     return (
       <>
-      <ItemsList />
+      <OnionHater/>
+      <Destiny/>
       </>
     );
   }

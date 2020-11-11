@@ -25,6 +25,7 @@ const arrayOfItems = [
   },
 ];
 
+
 // let html = [];
 // for (let i = 0; i < arrayOfItems.length; i++) {
 //   html.push(
@@ -35,33 +36,29 @@ const arrayOfItems = [
 // }
 
 let newArray = [];
-newArray = arrayOfItems.map( (itemInfo, i) => (
-    <li key ={i}>
-        <Item
-        name= {itemInfo.name}
-        description ={itemInfo.description}
-        quantity= {itemInfo.quantity}
-        categoty = {itemInfo.category}
-        price= {itemInfo.price}
-        />
-    </li>
-
+newArray = arrayOfItems.map((itemInfo, i) => (
+  <li key={i}>
+    <Item
+      name={itemInfo.name}
+      description={itemInfo.description}
+      quantity={itemInfo.quantity}
+      categoty={itemInfo.category}
+      price={itemInfo.price}
+    />
+  </li>
 ));
 
 class ItemsList extends React.Component {
   render() {
     return (
       <>
-        <Item>
-          <ul className='item-list'>{newArray}</ul>
-        </Item>
+          <ul className='item-list'> {newArray}</ul>
       </>
     );
   }
 }
 
 export default ItemsList;
-
 
 // class ItemList extends React.Component {
 //     render() {
@@ -87,7 +84,7 @@ export default ItemsList;
 //           </li>
 //         );
 //       });
-  
+
 //       //devolvemos el nuevo array dentro de un ul
 //       return <ul className="item-list">{newItemsArray}</ul>;
 //     }
