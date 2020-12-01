@@ -57,7 +57,7 @@ export default OnionHater;
 //     render() {
 //       return (
 //         <>
-//         <textarea name="textarea" rows="10" cols="50" placeholder = "Escribe aqui" onChange = {this.handleAlert}></textarea>
+//         <textarea name="textarea" rows="10" cols="50" placeholder = "Escribe aqui" onChange =  ></textarea>
 //         </>
 //       );
 //     }
